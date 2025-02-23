@@ -3,5 +3,9 @@
   "notebook.formatOnSave.enabled": true,
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
-  }
+  },
+  "clangd.fallbackFlags": [
+    // "-I${workspaceFolder}/../spack/opt/spack/.../include",
+    "-std=c++20"
+  ]
 }
